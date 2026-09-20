@@ -241,3 +241,15 @@ a.card:hover h3 { color: #1B3A3F; }
   .partner-marquee-section { padding: 48px 0; }
   .partner-chip { padding: 12px 20px; font-size: 14px; }
 }
+
+/* Kontaktformular */
+.contact-form { display: flex; flex-direction: column; gap: 20px; max-width: 560px; padding: 40px; }
+.form-field { display: flex; flex-direction: column; gap: 6px; }
+.form-field label { font-size: 14px; font-weight: 600; color: #1B3A3F; }
+.form-field input, .form-field textarea { font: inherit; font-size: 15px; padding: 12px 16px; border: 1.5px solid rgba(27,58,63,0.15); border-radius: 8px; background: #FBF7F0; color: #22242A; }
+.form-field input:focus, .form-field textarea:focus { outline: none; border-color: #9CC61E; }
+.form-field textarea { resize: vertical; min-height: 120px; }
+.form-consent { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; line-height: 1.5; color: #444A50; }
+.form-consent input[type="checkbox"] { margin-top: 3px; flex-shrink: 0; width: 16px; height: 16px; accent-color: #9CC61E; }
+.form-consent a { font-weight: 600; }
+.form-hidden { position: absolute; left: -9999px; }

@@ -69,20 +69,57 @@
   <a href="kontakt.html" class="btn-primary" style="padding: 11px 22px; font-size: 14px;">Kostenlose Beratung</a>
 </header>
 
-<!-- PLACEHOLDER CONTENT -->
-<section class="placeholder-hero">
+<!--
+  Netlify Forms: Diese Seite muss über Netlify deployed werden, damit das Formular
+  funktioniert (Netlify durchsucht das HTML beim Deployment nach data-netlify="true").
+  Auf GitHub Pages allein läuft dieses Formular NICHT.
+  TODO: DSGVO-Abschnitt zur Formularverarbeitung (Netlify Forms, Speicherort/AVV) in
+  datenschutz.html ergänzen.
+-->
+<section class="placeholder-hero" style="padding-bottom: 88px;">
   <div class="container">
     <div class="breadcrumb"><a href="../index.html">Start</a> / Kontakt</div>
     <div class="eyebrow">KONTAKT</div>
     <h1 style="font-size: 40px; line-height: 1.2; color: #1B3A3F; font-weight: 800; margin-top: 10px; max-width: 760px;">Kontakt: Jetzt Beratungstermin sichern</h1>
-    <p style="font-size: 17px; line-height: 1.6; color: #444A50; margin-top: 18px; max-width: 640px;">Vereinbare jetzt dein kostenloses, unverbindliches Beratungsgespräch.</p>
-    <div class="placeholder-badge">🚧 Diese Seite befindet sich im Aufbau. Der vollständige Inhalt folgt in Kürze.</div>
-    
-    <div style="margin-top: 32px; margin-bottom: 96px;">
-      <a href="kontakt.html" class="btn-primary">Kostenlose Beratung sichern
+    <p style="font-size: 17px; line-height: 1.6; color: #444A50; margin-top: 18px; max-width: 640px;">Schreib mir kurz dein Anliegen — ich melde mich persönlich bei dir zurück.</p>
+
+    <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="danke.html" class="card contact-form" style="margin-top: 32px;">
+      <input type="hidden" name="form-name" value="kontakt">
+      <p class="form-hidden">
+        <label>Nicht ausfüllen: <input name="bot-field"></label>
+      </p>
+
+      <div class="form-field">
+        <label for="name">Name*</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-field">
+        <label for="email">E-Mail*</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-field">
+        <label for="telefon">Telefon</label>
+        <input type="tel" id="telefon" name="telefon">
+      </div>
+
+      <div class="form-field">
+        <label for="nachricht">Deine Nachricht*</label>
+        <textarea id="nachricht" name="nachricht" required></textarea>
+      </div>
+
+      <label class="form-consent">
+        <input type="checkbox" name="datenschutz" required>
+        <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage gespeichert und verarbeitet werden.*</span>
+      </label>
+
+      <button type="submit" class="btn-primary" style="justify-content: center;">Nachricht absenden
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#1B3A3F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </div>
+      </button>
+    </form>
+
+    <p style="font-size: 13px; color: #6B6F76; margin-top: 16px; max-width: 560px;">* Pflichtfeld. Alternativ erreichst du mich auch direkt telefonisch unter <a href="tel:+491702392285" style="color: #1B3A3F; font-weight: 600;">+49 170 2392285</a> oder per <a href="mailto:semih.celikten@deutsches-maklerforum.de" style="color: #1B3A3F; font-weight: 600;">E-Mail</a>.</p>
   </div>
 </section>
 
@@ -140,8 +177,8 @@
 
       <div style="display: flex; flex-direction: column; gap: 14px;">
         <div style="font-size: 13px; font-weight: 700; color: #FBF7F0; text-transform: uppercase; letter-spacing: 0.06em;">Kontakt</div>
-        <div style="font-size: 14px;">[Platzhalter: finale, mit Kunde abgestimmte Adresse]</div>
-        <a href="tel:+4960225070902" style="color: inherit; font-size: 14px;">+49 6022 50709012</a>
+        <div style="font-size: 14px;">Babenhäuser Str. 37, 63762 Großostheim</div>
+        <a href="tel:+491702392285" style="color: inherit; font-size: 14px;">+49 170 2392285</a>
         <a href="mailto:semih.celikten@deutsches-maklerforum.de" style="color: inherit; font-size: 14px; word-break: break-word;">semih.celikten@deutsches-maklerforum.de</a>
         <a href="kontakt.html" class="btn-primary" style="margin-top: 8px; align-self: flex-start; padding: 10px 20px; font-size: 14px;">Termin anfragen</a>
       </div>
