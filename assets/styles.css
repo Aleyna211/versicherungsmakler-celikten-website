@@ -30,7 +30,7 @@ img { max-width: 100%; }
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) { transform: translateY(-9.5px) rotate(-45deg); }
 
 .hero-section { padding: 88px 60px 96px 120px; position: relative; overflow: hidden; }
-.hero-visual { position: relative; width: 100%; max-width: 480px; margin-left: auto; }
+.hero-visual { position: relative; width: 100%; max-width: 480px; margin-right: auto; }
 .hero-blob-bg { position: absolute; top: -36px; right: -36px; width: 320px; height: 320px; background: #9CC61E; opacity: 0.28; border-radius: 63% 37% 54% 46% / 43% 47% 53% 57%; z-index: 0; }
 .hero-photo { position: relative; z-index: 1; overflow: hidden; height: 500px; border-radius: 42% 58% 55% 45% / 48% 42% 58% 52%; box-shadow: 0 24px 60px rgba(27,58,63,0.2); }
 .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
@@ -130,14 +130,14 @@ a.card:hover h3 { color: #1B3A3F; }
 .advantage-item:hover { transform: translateX(4px); box-shadow: 0 6px 20px rgba(27,58,63,0.1); }
 
 .icon-tile { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; box-sizing: border-box; }
-.icon-tile.tile-lime { background: #9CC61E; border: 2px solid #1B3A3F; }
-.icon-tile.tile-petrol { background: #1B3A3F; border: 2px solid #9CC61E; }
-.icon-tile.tile-petrol svg path, .icon-tile.tile-petrol svg rect, .icon-tile.tile-petrol svg circle { stroke: #FBF7F0; }
+.icon-tile.tile-lime { background: rgba(156,198,30,0.12); border: 1px solid rgba(156,198,30,0.4); }
+.icon-tile.tile-petrol { background: rgba(27,58,63,0.05); border: 1px solid rgba(27,58,63,0.16); }
+.icon-tile.tile-petrol svg path, .icon-tile.tile-petrol svg rect, .icon-tile.tile-petrol svg circle { stroke: #1B3A3F; }
 
-/* Auf dunklen Karten braucht die Icon-Kachel einen hellen Rahmen statt des petrolfarbenen */
-.card-dark .icon-tile.tile-lime { border-color: #FBF7F0; }
-.card-dark .icon-tile.tile-petrol { background: #FBF7F0; border-color: #9CC61E; }
-.card-dark .icon-tile.tile-petrol svg path, .card-dark .icon-tile.tile-petrol svg rect, .card-dark .icon-tile.tile-petrol svg circle { stroke: #1B3A3F; }
+/* Auf dunklen Karten braucht die Icon-Kachel einen hellen, dezenten Hintergrund statt der petrolfarbenen Fläche */
+.card-dark .icon-tile.tile-lime { background: rgba(156,198,30,0.14); border-color: rgba(156,198,30,0.5); }
+.card-dark .icon-tile.tile-petrol { background: rgba(251,247,240,0.08); border-color: rgba(251,247,240,0.25); }
+.card-dark .icon-tile.tile-petrol svg path, .card-dark .icon-tile.tile-petrol svg rect, .card-dark .icon-tile.tile-petrol svg circle { stroke: #FBF7F0; }
 
 .stat-card { background: #1B3A3F; border-radius: 16px; padding: 22px 24px; color: #FBF7F0; display: flex; flex-direction: column; gap: 4px; }
 .stat-card .stat-number { font-family: 'Sora', sans-serif; font-weight: 800; font-size: 26px; color: #9CC61E; }
