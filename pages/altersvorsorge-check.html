@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Altersvorsorge-Check: kostenlos und unverbindlich</title>
+<meta name="description" content="Beantworte vier kurze Fragen und erhalte eine Einschätzung zu deiner privaten Altersvorsorge. Kostenlos und unverbindlich.">
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="container-nav">
+  <a href="../index.html" style="display: flex; align-items: center; gap: 14px; color: inherit;">
+    <img src="../assets/images/logo-deutsches-maklerforum.png" alt="Deutsches Maklerforum Logo" style="height: 34px; width: auto; flex-shrink: 0;">
+    <div style="width: 1px; height: 32px; background: rgba(27,58,63,0.15); flex-shrink: 0;"></div>
+    <div style="line-height: 1.15;">
+      <div style="font-family: 'Sora', sans-serif; font-weight: 800; font-size: 18px; color: #1B3A3F; letter-spacing: -0.01em;">Semih Celikten</div>
+      <div style="font-size: 11px; color: #6B6F76; letter-spacing: 0.06em;">VERSICHERUNGSMAKLER</div>
+    </div>
+  </a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-toggle-label" aria-label="Menü öffnen">
+    <span></span><span></span><span></span>
+  </label>
+  <nav class="nav-links">
+    <div class="nav-item-dropdown">
+      <button class="nav-dropdown-trigger">Leistungen
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#22242A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="nav-dropdown-menu">
+        <div class="nav-dropdown-menu-inner">
+          <div class="nav-dropdown-eyebrow">Unsere Leistungen</div>
+          <div class="nav-dropdown-grid">
+            <a href="private-krankenversicherung.html" class="nav-dropdown-item">
+              <div class="icon-tile tile-lime"><img class="service-icon" src="../assets/images/icon-pkv.png" width="30" height="30" alt="" loading="lazy"></div>
+              <div><div class="nav-dropdown-item-title">Private Krankenversicherung</div><div class="nav-dropdown-item-desc">Freie Arztwahl, individuelle Tarife</div></div>
+            </a>
+            <a href="private-altersvorsorge.html" class="nav-dropdown-item">
+              <div class="icon-tile tile-petrol"><img class="service-icon" src="../assets/images/icon-altersvorsorge.png" width="30" height="30" alt="" loading="lazy"></div>
+              <div><div class="nav-dropdown-item-title">Private Altersvorsorge</div><div class="nav-dropdown-item-desc">Deine Rentenlücke schließen</div></div>
+            </a>
+            <a href="altersvorsorgedepot.html" class="nav-dropdown-item">
+              <div class="icon-tile tile-lime"><img class="service-icon" src="../assets/images/icon-altersvorsorgedepot.png" width="30" height="30" alt="" loading="lazy"></div>
+              <div><div class="nav-dropdown-item-title">Altersvorsorgedepot</div><div class="nav-dropdown-item-desc"><span class="nav-pill">Neu ab 2027</span></div></div>
+            </a>
+            <a href="betriebliche-altersvorsorge.html" class="nav-dropdown-item">
+              <div class="icon-tile tile-petrol"><img class="service-icon" src="../assets/images/icon-bav.png" width="30" height="30" alt="" loading="lazy"></div>
+              <div><div class="nav-dropdown-item-title">Betriebliche Altersvorsorge</div><div class="nav-dropdown-item-desc">Steuervorteile clever nutzen</div></div>
+            </a>
+            <a href="berufsunfaehigkeitsversicherung.html" class="nav-dropdown-item">
+              <div class="icon-tile tile-lime"><img class="service-icon" src="../assets/images/icon-bu.png" width="30" height="30" alt="" loading="lazy"></div>
+              <div><div class="nav-dropdown-item-title">Berufsunfähigkeits&shy;versicherung</div><div class="nav-dropdown-item-desc">Einkommen absichern</div></div>
+            </a>
+            <a href="rechtsschutzversicherung.html" class="nav-dropdown-item">
+              <div class="icon-tile tile-petrol"><img class="service-icon" src="../assets/images/icon-rechtsschutz.png" width="30" height="30" alt="" loading="lazy"></div>
+              <div><div class="nav-dropdown-item-title">Rechtsschutzversicherung</div><div class="nav-dropdown-item-desc">Rechtlich abgesichert im Alltag</div></div>
+            </a>
+          </div>
+          <div class="nav-dropdown-footer">
+            <span>Unsicher, was passt? <a href="tel:+491702392285" class="nav-dropdown-phone"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>+49 170 2392285</a></span>
+            <a href="kontakt.html" class="btn-primary">Kostenlose Beratung</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="ratgeber.html">Ratgeber</a>
+    <a href="ueber-uns.html">Über uns</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <a href="tel:+491702392285" class="nav-phone" aria-label="Anrufen: +49 170 2392285"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" stroke="#1B3A3F" stroke-width="1.7" stroke-linejoin="round"/></svg><span>+49 170 2392285</span></a>
+  <a href="kontakt.html" class="btn-primary" style="padding: 11px 22px; font-size: 14px;">Kostenlose Beratung</a>
+</header>
+
+
+<!-- HERO / CHECK -->
+<section class="hero-section" style="padding-top: 48px; padding-bottom: 0;">
+  <div class="container" style="max-width: 920px;">
+    <div class="breadcrumb"><a href="../index.html">Start</a> / <a href="private-altersvorsorge.html">Private Altersvorsorge</a> / Altersvorsorge-Check</div>
+    <div class="eyebrow">KOSTENLOS UND UNVERBINDLICH</div>
+    <h1 style="font-size: 38px; line-height: 1.2; color: #1B3A3F; font-weight: 800; margin-top: 10px;">Altersvorsorge-Check: Deine Rentenlücke in vier Schritten einordnen</h1>
+    <p class="section-lead">Beantworte vier kurze Fragen. Semih Celikten meldet sich anschließend mit einer Einschätzung zu deiner privaten Altersvorsorge.</p>
+  </div>
+</section>
+
+<style>
+.chk { padding: 48px 0 72px; }
+.chk-box { max-width: 920px; margin: 0 auto; background: #fff; border-radius: 20px; box-shadow: 0 8px 36px rgba(27,58,63,0.10); padding: 40px; }
+.chk-progress { display: flex; justify-content: space-between; gap: 8px; margin-bottom: 8px; position: relative; list-style: none; padding: 0; }
+.chk-progress::before { content: ""; position: absolute; left: 20px; right: 20px; top: 19px; height: 3px; background: rgba(27,58,63,0.10); z-index: 0; }
+.chk-progress li { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 12px; color: #6B6F76; font-weight: 600; }
+.chk-progress .dot { width: 40px; height: 40px; border-radius: 50%; background: #E8E6E1; color: #444A50; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px; transition: background .25s, color .25s, box-shadow .25s; }
+.chk-progress li.done .dot { background: #9CC61E; color: #1B3A3F; }
+.chk-progress li.active .dot { background: #fff; box-shadow: 0 0 0 3px #9CC61E; color: #1B3A3F; }
+.chk-title { font-family: 'Sora', sans-serif; font-size: 22px; color: #1B3A3F; font-weight: 700; margin-top: 28px; }
+.chk-sub { color: #6B6F76; margin-top: 4px; font-size: 15px; }
+.step { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; animation: stepIn .35s ease both; }
+.step[hidden] { display: none; }
+.step-q { font-family: 'Sora', sans-serif; font-size: 20px; font-weight: 700; color: #1B3A3F; padding: 0; margin-bottom: 20px; }
+.tiles { display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr); }
+.tiles-4 { grid-template-columns: repeat(4, 1fr); }
+.tiles-5 { grid-template-columns: repeat(5, 1fr); }
+.tile { position: relative; display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 18px 12px 16px; border-radius: 16px; border: 2px solid rgba(27,58,63,0.10); background: #FBF7F0; cursor: pointer; text-align: center; transition: border-color .2s, transform .2s, box-shadow .2s, background .2s; }
+.tile:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(27,58,63,0.10); }
+.tile input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.tile:has(input:focus-visible) { outline: 3px solid #1B3A3F; outline-offset: 2px; }
+.tile:has(input:checked) { border-color: #9CC61E; background: #fff; box-shadow: 0 8px 22px rgba(156,198,30,0.25); }
+.tile-art { width: 100%; max-width: 120px; aspect-ratio: 1; background: #fff; border-radius: 14px; display: flex; }
+.tile:has(input:checked) .tile-art { background: #F4F9E4; }
+.ill { width: 100%; height: 100%; overflow: visible; }
+.tile-label { font-size: 15px; font-weight: 600; color: #1B3A3F; line-height: 1.3; }
+.tile-check { position: absolute; top: -10px; left: -10px; width: 28px; height: 28px; border-radius: 50%; background: #9CC61E; display: flex; align-items: center; justify-content: center; transform: scale(0); transition: transform .2s; }
+.tile:has(input:checked) .tile-check { transform: scale(1); }
+.chk-error { color: #B3261E; font-size: 14px; margin-top: 14px; min-height: 20px; }
+.chk-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; gap: 12px; }
+.chk-back { background: none; border: none; font: inherit; font-size: 14px; font-weight: 600; color: #6B6F76; cursor: pointer; padding: 10px 4px; }
+.chk-nav [hidden], .step[hidden] { display: none !important; }
+.chk-nav button { white-space: nowrap; }
+.chk-contact { max-width: 520px; display: flex; flex-direction: column; gap: 18px; }
+.chk-summary { font-size: 13px; color: #6B6F76; background: #FBF7F0; border-radius: 10px; padding: 12px 14px; line-height: 1.6; }
+.chk-note { text-align: center; color: #6B6F76; font-size: 13px; margin-top: 18px; }
+@keyframes stepIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes drop { 0% { transform: translateY(-34px); opacity: 0; } 35% { opacity: 1; } 70%,100% { transform: translateY(0); opacity: 1; } }
+@keyframes pop { 0%,100% { transform: translateY(0); opacity: 0; } 40% { transform: translateY(-12px); opacity: 1; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes ring { 0% { stroke-dashoffset: 264; } 60%,100% { stroke-dashoffset: 40; } }
+@keyframes glow { 0%,100% { opacity: .3; } 50% { opacity: 1; } }
+@keyframes swing { 0%,100% { transform: rotate(-8deg); } 50% { transform: rotate(8deg); } }
+.a-bob { animation: bob 3.2s ease-in-out infinite; }
+.a-drop { animation: drop 2.6s ease-in infinite; }
+.a-pop { animation: pop 2.8s ease-out infinite; } .a-pop.p2 { animation-delay: 1.2s; }
+.a-ring { animation: ring 3.4s ease-in-out infinite alternate; stroke-dashoffset: 40; }
+.a-hand { transform-origin: 60px 60px; animation: spin 12s linear infinite; }
+.a-hand.fast { animation-duration: 5s; } .a-hand.slow { animation-duration: 20s; }
+.a-spin { animation: spin 24s linear infinite; }
+.a-glow, .a-twinkle { animation: glow 3s ease-in-out infinite; }
+.a-swing { transform-origin: 104px 50px; animation: swing 3s ease-in-out infinite; }
+.tile:hover .a-bob { animation-duration: 1.6s; }
+@media (prefers-reduced-motion: reduce) { .step, .a-bob, .a-drop, .a-pop, .a-ring, .a-hand, .a-spin, .a-glow, .a-twinkle, .a-swing { animation: none !important; } .a-ring { stroke-dashoffset: 40; } .a-pop { opacity: 0; } .tile, .tile-check { transition: none; } }
+@media (max-width: 900px) { .tiles-4 { grid-template-columns: repeat(2, 1fr); } .tiles-5 { grid-template-columns: repeat(2, 1fr); } .chk-box { padding: 24px 18px; } }
+@media (max-width: 560px) { .tiles { grid-template-columns: repeat(2, 1fr); gap: 12px; } .tile-art { max-width: 92px; } .chk-progress li span.lbl { display: none; } .chk-progress::before { left: 18px; right: 18px; } }
+</style>
+<section class="chk">
+  <div class="container">
+    <div class="chk-box">
+      <ol class="chk-progress" aria-label="Fortschritt">
+        <li class="active"><span class="dot">1</span></li>
+        <li><span class="dot">2</span></li>
+        <li><span class="dot">3</span></li>
+        <li><span class="dot">4</span></li>
+        <li><span class="dot">5</span></li>
+      </ol>
+      <h2 class="chk-title">Kostenlos und unverbindlich: private Rentenversicherung</h2>
+      <p class="chk-sub">Rentenlücke schließen mit der privaten Altersvorsorge</p>
+
+      <form id="check-form" name="altersvorsorge-check" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/pages/danke.html">
+        <input type="hidden" name="form-name" value="altersvorsorge-check">
+        <p class="form-hidden"><label>Nicht ausfüllen: <input name="bot-field"></label></p>
+
+    <fieldset class="step" data-step="1" >
+      <legend class="step-q">Wie soll deine Vorsorge ausgezahlt werden?</legend>
+      <div class="tiles tiles-3">
+        <label class="tile"><input type="radio" name="auszahlungsform" value="Monatlich" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><rect x="22" y="40" width="76" height="62" rx="8" fill="#fff" stroke="#1B3A3F" stroke-width="3"/><rect x="22" y="40" width="76" height="16" rx="8" fill="#1B3A3F"/><rect x="38" y="30" width="6" height="16" rx="3" fill="#1B3A3F"/><rect x="76" y="30" width="6" height="16" rx="3" fill="#1B3A3F"/><g class="a-drop"><circle cx="60" cy="80" r="14" fill="#9CC61E" stroke="#1B3A3F" stroke-width="3"/><text x="60" y="85.32" text-anchor="middle" font-family="Sora,sans-serif" font-weight="800" font-size="15.400000000000002" fill="#1B3A3F">€</text></g></svg></span><span class="tile-label">Monatlich</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="auszahlungsform" value="Einmalzahlung" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><g class="a-bob"><path d="M44 44 L38 30 Q60 40 82 30 L76 44 Z" fill="#9CC61E" stroke="#1B3A3F" stroke-width="3" stroke-linejoin="round"/><path d="M44 44 Q20 62 26 90 Q32 106 60 106 Q88 106 94 90 Q100 62 76 44 Z" fill="#9CC61E" stroke="#1B3A3F" stroke-width="3" stroke-linejoin="round"/><text x="60" y="90" text-anchor="middle" font-family="Sora,sans-serif" font-weight="800" font-size="30" fill="#1B3A3F">€</text></g><circle class="a-pop p1" cx="52" cy="26" r="5" fill="#9CC61E" stroke="#1B3A3F" stroke-width="2.5"/><circle class="a-pop p2" cx="68" cy="26" r="5" fill="#9CC61E" stroke="#1B3A3F" stroke-width="2.5"/></svg></span><span class="tile-label">Einmalzahlung</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="auszahlungsform" value="Weiß ich nicht" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><g class="a-bob"><circle cx="60" cy="60" r="38" fill="#9CC61E" opacity=".25"/><text x="60" y="82" text-anchor="middle" font-family="Sora,sans-serif" font-weight="800" font-size="70" fill="#1B3A3F">?</text></g></svg></span><span class="tile-label">Ich weiß es nicht</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+      </div>
+    </fieldset>
+    <fieldset class="step" data-step="2" hidden>
+      <legend class="step-q">Ab wann soll deine Vorsorge ausgezahlt werden?</legend>
+      <div class="tiles tiles-4">
+        <label class="tile"><input type="radio" name="auszahlung_ab" value="Bis 65 Jahre" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="42" fill="#fff" stroke="#1B3A3F" stroke-width="3"/><circle class="a-ring" cx="60" cy="60" r="42" fill="none" stroke="#9CC61E" stroke-width="6" stroke-linecap="round" stroke-dasharray="264" transform="rotate(-90 60 60)"/><text x="60" y="71" text-anchor="middle" font-family="Sora,sans-serif" font-weight="800" font-size="32" fill="#1B3A3F">65</text></svg></span><span class="tile-label">Bis 65 Jahre</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="auszahlung_ab" value="Mit 66 Jahren" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="42" fill="#fff" stroke="#1B3A3F" stroke-width="3"/><circle class="a-ring" cx="60" cy="60" r="42" fill="none" stroke="#9CC61E" stroke-width="6" stroke-linecap="round" stroke-dasharray="264" transform="rotate(-90 60 60)"/><text x="60" y="71" text-anchor="middle" font-family="Sora,sans-serif" font-weight="800" font-size="32" fill="#1B3A3F">66</text></svg></span><span class="tile-label">Mit 66 Jahren</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="auszahlung_ab" value="Ab 67 Jahre" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="42" fill="#fff" stroke="#1B3A3F" stroke-width="3"/><circle class="a-ring" cx="60" cy="60" r="42" fill="none" stroke="#9CC61E" stroke-width="6" stroke-linecap="round" stroke-dasharray="264" transform="rotate(-90 60 60)"/><text x="60" y="71" text-anchor="middle" font-family="Sora,sans-serif" font-weight="800" font-size="32" fill="#1B3A3F">67</text></svg></span><span class="tile-label">Ab 67 Jahre</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="auszahlung_ab" value="Weiß ich nicht" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><g class="a-bob"><circle cx="60" cy="60" r="38" fill="#9CC61E" opacity=".25"/><text x="60" y="82" text-anchor="middle" font-family="Sora,sans-serif" font-weight="800" font-size="70" fill="#1B3A3F">?</text></g></svg></span><span class="tile-label">Ich weiß es nicht</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+      </div>
+    </fieldset>
+    <fieldset class="step" data-step="3" hidden>
+      <legend class="step-q">Wann möchtest du mit der Altersvorsorge starten?</legend>
+      <div class="tiles tiles-3">
+        <label class="tile"><input type="radio" name="start" value="In 1 bis 2 Monaten" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="42" fill="#fff" stroke="#1B3A3F" stroke-width="3"/><g stroke="#1B3A3F" stroke-width="3" stroke-linecap="round"><path d="M60 24v6M60 90v6M24 60h6M90 60h6"/></g><g class="a-hand fast"><path d="M60 60V34" stroke="#9CC61E" stroke-width="5" stroke-linecap="round"/></g><path d="M60 60l14 8" stroke="#1B3A3F" stroke-width="5" stroke-linecap="round"/><circle cx="60" cy="60" r="5" fill="#1B3A3F"/></svg></span><span class="tile-label">In 1 bis 2 Monaten</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="start" value="In 2 bis 6 Monaten" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="42" fill="#fff" stroke="#1B3A3F" stroke-width="3"/><g stroke="#1B3A3F" stroke-width="3" stroke-linecap="round"><path d="M60 24v6M60 90v6M24 60h6M90 60h6"/></g><g class="a-hand mid"><path d="M60 60V34" stroke="#9CC61E" stroke-width="5" stroke-linecap="round"/></g><path d="M60 60l14 8" stroke="#1B3A3F" stroke-width="5" stroke-linecap="round"/><circle cx="60" cy="60" r="5" fill="#1B3A3F"/></svg></span><span class="tile-label">In 2 bis 6 Monaten</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="start" value="Ab 6 Monaten" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="42" fill="#fff" stroke="#1B3A3F" stroke-width="3"/><g stroke="#1B3A3F" stroke-width="3" stroke-linecap="round"><path d="M60 24v6M60 90v6M24 60h6M90 60h6"/></g><g class="a-hand slow"><path d="M60 60V34" stroke="#9CC61E" stroke-width="5" stroke-linecap="round"/></g><path d="M60 60l14 8" stroke="#1B3A3F" stroke-width="5" stroke-linecap="round"/><circle cx="60" cy="60" r="5" fill="#1B3A3F"/></svg></span><span class="tile-label">Ab 6 Monaten</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+      </div>
+    </fieldset>
+    <fieldset class="step" data-step="4" hidden>
+      <legend class="step-q">Was ist dein aktueller Berufsstatus?</legend>
+      <div class="tiles tiles-5">
+        <label class="tile"><input type="radio" name="berufsstatus" value="Selbstständig" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><g class="a-bob"><path d="M60 18a24 24 0 0 0-12 45v10h24V63A24 24 0 0 0 60 18z" fill="#9CC61E" stroke="#1B3A3F" stroke-width="3" stroke-linejoin="round"/><rect x="48" y="78" width="24" height="8" rx="3" fill="#1B3A3F"/><rect x="52" y="90" width="16" height="8" rx="3" fill="#1B3A3F"/></g><g stroke="#1B3A3F" stroke-width="3" stroke-linecap="round" class="a-glow"><path d="M60 6v6M24 30l5 4M96 30l-5 4"/></g></svg></span><span class="tile-label">Selbstständige:r, usw.</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="berufsstatus" value="Beamt:in" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><path d="M60 20L18 44h84z" fill="#9CC61E" stroke="#1B3A3F" stroke-width="3" stroke-linejoin="round"/><g fill="#fff" stroke="#1B3A3F" stroke-width="3"><rect x="26" y="52" width="10" height="38"/><rect x="48" y="52" width="10" height="38"/><rect x="70" y="52" width="10" height="38"/><rect x="92" y="52" width="10" height="38" transform="translate(-8 0)"/></g><rect x="16" y="92" width="88" height="10" rx="2" fill="#1B3A3F"/><circle class="a-twinkle" cx="60" cy="38" r="3" fill="#1B3A3F"/></svg></span><span class="tile-label">Beamt:in</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="berufsstatus" value="Angestellte:r" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><g class="a-bob"><rect x="20" y="40" width="80" height="56" rx="8" fill="#9CC61E" stroke="#1B3A3F" stroke-width="3"/><path d="M44 40V32a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v8" fill="none" stroke="#1B3A3F" stroke-width="3"/><path d="M20 62h80" stroke="#1B3A3F" stroke-width="3"/><rect x="52" y="56" width="16" height="12" rx="3" fill="#fff" stroke="#1B3A3F" stroke-width="3"/></g></svg></span><span class="tile-label">Angestellte:r</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="berufsstatus" value="Student:in" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><g class="a-bob"><path d="M60 28L16 50l44 22 44-22z" fill="#9CC61E" stroke="#1B3A3F" stroke-width="3" stroke-linejoin="round"/><path d="M36 62v18c0 6 11 12 24 12s24-6 24-12V62" fill="#fff" stroke="#1B3A3F" stroke-width="3" stroke-linejoin="round"/></g><path class="a-swing" d="M104 50v26" stroke="#1B3A3F" stroke-width="3" stroke-linecap="round"/><circle class="a-swing" cx="104" cy="80" r="5" fill="#9CC61E" stroke="#1B3A3F" stroke-width="2.5"/></svg></span><span class="tile-label">Student:in usw.</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+        <label class="tile"><input type="radio" name="berufsstatus" value="Rentner:in" required>
+          <span class="tile-art"><svg class="ill" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><g class="a-spin" style="transform-origin:60px 54px"><g stroke="#9CC61E" stroke-width="5" stroke-linecap="round"><path d="M60 12v10M60 86v10M18 54h10M92 54h10M30 24l7 7M83 77l7 7M90 24l-7 7M37 77l-7 7"/></g></g><circle cx="60" cy="54" r="20" fill="#9CC61E" stroke="#1B3A3F" stroke-width="3"/><path d="M26 108c8-12 20-12 34 0 14-12 26-12 34 0" fill="none" stroke="#1B3A3F" stroke-width="3" stroke-linecap="round"/></svg></span><span class="tile-label">Rentner:in</span><span class="tile-check" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label>
+      </div>
+    </fieldset>
+
+        <fieldset class="step" id="chk-contact" data-step="5">
+          <legend class="step-q">Wohin dürfen wir die Einschätzung schicken?</legend>
+          <div class="chk-contact">
+            <div class="chk-summary" id="chk-summary"></div>
+            <div class="form-field"><label for="chk-name">Dein Name*</label><input type="text" id="chk-name" name="name" autocomplete="name" required></div>
+            <div class="form-field"><label for="chk-email">Deine E-Mail*</label><input type="email" id="chk-email" name="email" autocomplete="email" required></div>
+            <div class="form-field"><label for="chk-tel">Deine Telefonnummer*</label><input type="tel" id="chk-tel" name="telefon" autocomplete="tel" required></div>
+            <label class="form-consent">
+              <input type="checkbox" name="datenschutz" required>
+              <span>Ich habe die <a href="datenschutz.html" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen. Ich bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage gespeichert und verarbeitet werden und Semih Celikten mich dazu per Telefon oder E-Mail kontaktiert.*</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="chk-error" id="chk-error" role="alert"></div>
+        <div class="chk-nav">
+          <button type="button" class="chk-back" id="chk-back" hidden>&larr; Zurück</button>
+          <button type="button" class="btn-primary" id="chk-next">Weiter
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#1B3A3F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button type="submit" class="btn-primary" id="chk-submit" hidden>Check absenden
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#1B3A3F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </form>
+      <p class="chk-note">* Pflichtfeld. Der Check ist kostenlos, unverbindlich und dauert etwa 30 Sekunden.</p>
+    </div>
+  </div>
+</section>
+<script>
+(function () {
+  var form = document.getElementById('check-form');
+  var steps = Array.prototype.slice.call(form.querySelectorAll('fieldset.step:not(#chk-contact)'));
+  var contact = document.getElementById('chk-contact');
+  var prog = Array.prototype.slice.call(document.querySelectorAll('.chk-progress li'));
+  var back = document.getElementById('chk-back');
+  var next = document.getElementById('chk-next');
+  var submit = document.getElementById('chk-submit');
+  var err = document.getElementById('chk-error');
+  var summary = document.getElementById('chk-summary');
+  var total = steps.length + 1;
+  var cur = 1;
+  var names = ['auszahlungsform', 'auszahlung_ab', 'start', 'berufsstatus'];
+  function val(n) { var c = form.querySelector('input[name="' + n + '"]:checked'); return c ? c.value : ''; }
+  function show(n) {
+    cur = n;
+    steps.forEach(function (s, i) { s.hidden = (i + 1) !== n; });
+    contact.hidden = n !== total;
+    prog.forEach(function (li, i) { li.classList.toggle('done', i + 1 < n); li.classList.toggle('active', i + 1 === n); li.setAttribute('aria-current', i + 1 === n ? 'step' : 'false'); });
+    back.hidden = n === 1;
+    next.hidden = n === total;
+    submit.hidden = n !== total;
+    err.textContent = '';
+    if (n === total) {
+      summary.textContent = 'Deine Angaben: ' + names.map(function (x) { return val(x); }).join(' · ');
+    }
+    var focusEl = n === total ? form.querySelector('#chk-name') : null;
+    if (focusEl) focusEl.focus();
+  }
+  function advance() {
+    if (cur < total) {
+      if (!val(names[cur - 1])) { err.textContent = 'Bitte wähle eine Antwort aus.'; return; }
+      show(cur + 1);
+    }
+  }
+  next.addEventListener('click', advance);
+  back.addEventListener('click', function () { if (cur > 1) show(cur - 1); });
+  form.addEventListener('change', function (e) {
+    if (e.target.type === 'radio') { err.textContent = ''; setTimeout(advance, 380); }
+  });
+  form.addEventListener('submit', function (e) {
+    for (var i = 0; i < names.length; i++) { if (!val(names[i])) { e.preventDefault(); show(i + 1); err.textContent = 'Bitte wähle eine Antwort aus.'; return; } }
+  });
+  form.classList.add('js');
+  contact.hidden = true;
+  show(1);
+})();
+</script>
+
+<!-- FOOTER -->
+<footer class="section" style="background: #162C30; padding-top: 72px; padding-bottom: 0; color: rgba(251,247,240,0.65);">
+  <div class="container">
+    <div class="footer-grid" style="display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 48px;">
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <div style="background: #FBF7F0; border-radius: 8px; padding: 6px 8px; display: flex; align-items: center; flex-shrink: 0;">
+            <img src="../assets/images/logo-deutsches-maklerforum.png" alt="Deutsches Maklerforum Logo" style="height: 24px; width: auto; display: block;">
+          </div>
+          <div style="width: 1px; height: 28px; background: rgba(251,247,240,0.2); flex-shrink: 0;"></div>
+          <div style="font-family: 'Sora', sans-serif; font-weight: 800; font-size: 17px; color: #FBF7F0; letter-spacing: -0.01em;">Semih Celikten</div>
+        </div>
+        <p style="font-size: 14px; line-height: 1.6; max-width: 320px;">Versicherungsmakler in Großostheim. Ganzheitliche Beratung zu Vorsorge und Versicherung – unverbindlich und persönlich. Für dich entstehen keine zusätzlichen Beratungskosten, meine Vergütung erhalte ich als Courtage vom Versicherer (siehe <a href="erstinformation.html" style="color: inherit; text-decoration: underline;">Erstinformation</a>).</p>
+        <div style="display: flex; gap: 12px;">
+          <a href="https://www.tiktok.com/@versicherungsstratege" aria-label="TikTok" style="width: 38px; height: 38px; border-radius: 50%; background: rgba(251,247,240,0.08); display: flex; align-items: center; justify-content: center; color: inherit;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.4 2.2 1.9 3.9 4 4.3v2.8a7.7 7.7 0 0 1-4-1.1v6.4a5.9 5.9 0 1 1-5.9-5.9c.3 0 .6 0 .9.1v2.9a3 3 0 1 0 2.1 2.9V2h2.9z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/semih.versicherung/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="width: 38px; height: 38px; border-radius: 50%; background: rgba(251,247,240,0.08); display: flex; align-items: center; justify-content: center; color: inherit;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/semih-celikten-545426351/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style="width: 38px; height: 38px; border-radius: 50%; background: rgba(251,247,240,0.08); display: flex; align-items: center; justify-content: center; color: inherit;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M8 10.5V17M8 7.5v.01M12 17v-3.5c0-1.1.9-2 2-2s2 .9 2 2V17M12 11v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-size: 13px; font-weight: 700; color: #FBF7F0; text-transform: uppercase; letter-spacing: 0.06em;">Leistungen</div>
+        <a href="private-krankenversicherung.html" style="color: inherit; font-size: 14px;">Private Krankenversicherung</a>
+        <a href="private-altersvorsorge.html" style="color: inherit; font-size: 14px;">Private Altersvorsorge</a>
+        <a href="altersvorsorgedepot.html" style="color: inherit; font-size: 14px;">Altersvorsorgedepot</a>
+        <a href="betriebliche-altersvorsorge.html" style="color: inherit; font-size: 14px;">Betriebliche Altersvorsorge</a>
+        <a href="berufsunfaehigkeitsversicherung.html" style="color: inherit; font-size: 14px;">Berufsunfähigkeitsversicherung</a>
+        <a href="rechtsschutzversicherung.html" style="color: inherit; font-size: 14px;">Rechtsschutzversicherung</a>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-size: 13px; font-weight: 700; color: #FBF7F0; text-transform: uppercase; letter-spacing: 0.06em;">Weitere Themen</div>
+        <a href="pkv-fuer-beamte.html" style="color: inherit; font-size: 14px;">PKV für Beamte</a>
+        <a href="altersvorsorge-fuer-selbststaendige.html" style="color: inherit; font-size: 14px;">Altersvorsorge für Selbstständige</a>
+        <a href="altersvorsorge-fuer-beamte.html" style="color: inherit; font-size: 14px;">Altersvorsorge für Beamte</a>
+        <a href="ruerup-rente.html" style="color: inherit; font-size: 14px;">Rürup-Rente</a>
+        <a href="riester-rente.html" style="color: inherit; font-size: 14px;">Riester-Rente</a>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-size: 13px; font-weight: 700; color: #FBF7F0; text-transform: uppercase; letter-spacing: 0.06em;">Kontakt</div>
+        <div style="font-size: 14px;">Babenhäuser Str. 37, 63762 Großostheim</div>
+        <a href="tel:+491702392285" style="color: inherit; font-size: 14px;">+49 170 2392285</a>
+        <a href="mailto:semih.celikten@deutsches-maklerforum.de" style="color: inherit; font-size: 14px; word-break: break-word;">semih.celikten@deutsches-maklerforum.de</a>
+        <a href="kontakt.html" class="btn-primary" style="margin-top: 8px; align-self: flex-start; padding: 10px 20px; font-size: 14px;">Termin anfragen</a>
+      </div>
+
+    </div>
+
+    <div style="border-top: 1px solid rgba(251,247,240,0.12); padding: 24px 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 13px;">
+      <div>© 2026 Semih Celikten – Deutsches Maklerforum AG</div>
+      <div style="display: flex; gap: 28px;">
+        <a href="impressum.html" style="color: inherit;">Impressum</a>
+        <a href="erstinformation.html" style="color: inherit;">Erstinformation</a>
+        <a href="#" data-consent-open style="color: inherit;">Cookie-Einstellungen</a>
+        <a href="datenschutz.html" style="color: inherit;">Datenschutzerklärung</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/consent.js"></script>
+</body>
+</html>
