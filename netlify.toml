@@ -1,0 +1,6 @@
+# Alte Netlify-Adresse dauerhaft auf die Hauptdomain umleiten (SEO: eine einzige Adresse im Index)
+[[redirects]]
+  from = "https://celikten-versicherungsmakler.netlify.app/*"
+  to = "https://celikten-versicherungsmakler.de/:splat"
+  status = 301
+  force = true
