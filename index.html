@@ -29,6 +29,9 @@
   "areaServed": ["Großostheim", "Aschaffenburg", "Landkreis Aschaffenburg"]
 }
 </script>
+<link rel="preload" href="assets/fonts/sora-xMQ9uFFYT72X.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/work-sans-QGYsz_wNahGA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/images/semih-hero.jpg" as="image" fetchpriority="high">
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -90,7 +93,7 @@
       </div>
     </div>
     <a href="pages/ratgeber.html">Ratgeber</a>
-    <a href="pages/ueber-uns.html">Über uns</a>
+    <a href="pages/ueber-uns.html">Über mich</a>
     <a href="pages/kontakt.html">Kontakt</a>
   </nav>
   <a href="tel:+491702392285" class="nav-phone" aria-label="Anrufen: +49 170 2392285"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" stroke="#1B3A3F" stroke-width="1.7" stroke-linejoin="round"/></svg><span>+49 170 2392285</span></a>
@@ -135,7 +138,7 @@
           300+ Versicherungspartner
         </div>
         <div class="hero-photo">
-          <img src="assets/images/semih-hero.jpg" alt="Semih Celikten, Versicherungsmakler in Großostheim" style="object-position: center 32%;">
+          <img src="assets/images/semih-hero.jpg" alt="Semih Celikten, Versicherungsmakler in Großostheim" width="600" height="900" fetchpriority="high" decoding="async" style="object-position: center 32%;">
         </div>
         <div class="card hero-badge-rating" style="padding: 16px 18px; display: flex; align-items: center; gap: 12px;">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 17.3l-5.4 3 1.4-6-4.6-4 6-.5L12 4l2.6 5.8 6 .5-4.6 4 1.4 6z" fill="#9CC61E"/></svg>
@@ -161,7 +164,7 @@
     </div>
     <div style="display:flex; align-items:center; gap:10px;">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z" stroke="#9CC61E" stroke-width="1.8" stroke-linejoin="round"/></svg>
-      Versicherungsfachmann (IHK)
+      Kaufmann für Versicherungen und Finanzanlagen (IHK)
     </div>
     <div style="display:flex; align-items:center; gap:10px;">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 19h16M6 19V9l6-4 6 4v10" stroke="#9CC61E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -742,8 +745,8 @@
 
 <script>
 (function(){var c=document.querySelectorAll('.ablauf-card, .leistung-card');if(!('IntersectionObserver' in window)||!c.length)return;
-var o=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');o.unobserve(x.target);}});},{threshold:0.2});
-c.forEach(function(el,i){el.style.setProperty('--d',(i*0.12)+'s');el.classList.add('reveal');o.observe(el);});})();
+var o=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');o.unobserve(x.target);}});},{threshold:0.1,rootMargin:'0px 0px 80px 0px'});
+c.forEach(function(el){var i=Array.prototype.indexOf.call(el.parentNode.children,el)%3;el.style.setProperty('--d',(i*0.08)+'s');el.classList.add('reveal');o.observe(el);});})();
 </script>
 <script src="assets/mobile-bar.js"></script>
 <script src="assets/consent.js"></script>
